@@ -1,6 +1,7 @@
 /*
   Keyboard.h
 
+  Copyright (c) 2017, Martin Daser
   Copyright (c) 2015, Arduino LLC
   Original code (pre-library): Copyright (c) 2011, Peter Barrett
 
@@ -29,6 +30,12 @@
 #warning "Using legacy HID core (non pluggable)"
 
 #else
+
+//================================================================================
+//================================================================================
+//  Keyboard Layouts
+#define KEY_LAYOUT_EN_US 0x0001
+#define KEY_LAYOUT_DE_DE 0x0002
 
 //================================================================================
 //================================================================================
